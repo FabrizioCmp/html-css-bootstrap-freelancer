@@ -1,10 +1,21 @@
 .my-bg-green{
     background-color: aquamarine;
 }
+.my-bg2{
+    background-color: blue;
+}
 
 .avatar-icon{
     width: 20%;
 }
 
+h5{
+}
 
+ul{
+    list-style: none;
+}
 
+.gap{
+    column-gap: 1rem;
+}
