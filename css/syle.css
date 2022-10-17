@@ -1,8 +1,17 @@
-.my-bg-green{
-    background-color: aquamarine;
+:root{
+    --color1: #2C3E50;
+    --color2: #1ABC9C;
+    --color3: #3A546D;
 }
-.my-bg2{
-    background-color: blue;
+
+.bkg-1{
+    background-color: var(--color1);
+}
+.bkg-2{
+    background-color: var(--color2);
+}
+.bkg-3{
+    background-color: var(--color3);
 }
 
 .avatar-icon{
@@ -18,4 +27,8 @@ ul{
 
 .gap{
     column-gap: 1rem;
+}
+
+.pb-massage{
+    padding-bottom: 4rem;
 }
