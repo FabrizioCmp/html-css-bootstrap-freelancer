@@ -15,7 +15,7 @@
 }
 
 .avatar-icon{
-    width: 30%;
+    width: 210px;
     padding-bottom: 1rem;
 }
 
@@ -75,3 +75,11 @@ ul{
     padding: .3rem 1rem;
 }
 
+.link-footer{
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.max-w-lg{
+    max-width: 920px;
+}
