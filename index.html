@@ -7,14 +7,22 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/syle.css">
 </head>
 <body>
     <header class="bkg-1 py-3">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-auto">START BOOTSTRAP</div>
-                <div class="col-auto">MENU</div>
+                <div class="col-auto text-white">START BOOTSTRAP</div>
+                <div class="col-auto">
+                    <div class="hamb-menu">
+                        <i class="fa solid fa-bars "></i>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -26,36 +34,44 @@
             <div class="container">
                 <div class=" d-flex flex-column align-items-center  ">
                     <div class="avatar-icon"><img src="imgs/avatar.svg" alt=""></div>
-                    <h1>START BOOTSTRAP</h1>
-                    <div>&star;</div>
-                    <div>GRAPHIC DESIGNER - WEB DESIGNER-ILLUSTRATOR</div>
+                    <h1 class="text-white">START BOOTSTRAP</h1>
+                    <div class="star-container d-flex align-items-center c-white my-3">
+                        <div class="line-star bg-white"></div>
+                        <i class="fa-solid fa-star fs-3"></i>
+                        <div class="line-star bg-white"></div>
+                    </div>
+                    <div class="text-white ">GRAPHIC DESIGNER - WEB DESIGNER-ILLUSTRATOR</div>
                 </div>
             </div>
         </section>
     
         <seciton class="">
-            <div class="container my-5">
+            <div class="container container-md container-lg  my-5">
                 <div class="d-flex flex-column align-items-center">
                     <h2>PORTFOLIO</h2>
-                    <div> &star;</div>
+                    <div class="star-container d-flex align-items-center my-3">
+                        <div class="line-star bkg-1"></div>
+                        <i class="fa-solid fa-star fs-3"></i>
+                        <div class="line-star bkg-1"></div>
+                    </div>
                 </div>
-                <div class="row flex-column align-items-center g-3 ">
-                    <div class="col">
+                <div class="row flex-column flex-md-row  align-items-center g-3 ">
+                    <div class="col col-md-6 col-lg-4">
                         <div class=""><img class="img-fluid" src="imgs/cabin.png" alt=""></div>
                     </div>
-                    <div class="col">
+                    <div class="col col-md-6 col-lg-4">
                         <div><img class="img-fluid" src="imgs/cake.png" alt=""></div>
                     </div>
-                    <div class="col">
+                    <div class="col col-md-6 col-lg-4">
                         <div><img class="img-fluid" src="imgs/circus.png" alt=""></div>
                     </div>
-                    <div class="col">
+                    <div class="col col-md-6 col-lg-4">
                         <div><img class="img-fluid" src="imgs/game.png" alt=""></div>
                     </div>
-                    <div class="col">
+                    <div class="col col-md-6 col-lg-4">
                         <div><img class="img-fluid" src="imgs/safe.png" alt=""></div>
                     </div>
-                    <div class="col">
+                    <div class="col col-md-6 col-lg-4">
                         <div><img class="img-fluid" src="imgs/submarine.png" alt=""></div>
                     </div>
                 </div>
@@ -64,22 +80,31 @@
     
         <section class="bkg-2 py-3 ">
             <div class="container my-5">
-                <h2 class="text-center">ABOUT</h2>
-                <div class="text-center">&star;</div>
-                <div class="d-felx flex-column  ">
-                    <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni, et quam fugit ea deserunt rem? Est ex aspernatur a, at, quaerat nihil soluta, voluptas perspiciatis nobis voluptate expedita. Expedita Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam a officiis tenetur quo veniam sunt sint repellat aliquam esse fugiat earum facere laudantium hic, ex nisi optio consequuntur quos! Minima.</p>
-                    <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam, excepturi quibusdam ipsa neque id et tempora obcaecati aperiam perspiciatis repellendus ut, voluptatibus deleniti delectus distinctio possimus consequatur atque nihil! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem dolores velit illum a, nostrum eaque labore maxime expedita itaque assumenda ex? Illo in officiis facilis, exercitationem architecto consequatur animi quibusdam. </p>
+                <h2 class="text-center text-white">ABOUT</h2>
+                <div class="star-container d-flex align-items-center justify-content-center c-white my-3">
+                    <div class="line-star bg-white"></div>
+                    <i class="fa-solid fa-star fs-3" ></i>
+                    <div class="line-star bg-white"></div>
                 </div>
-                <button class="m-auto d-block">
+                <div class="d-felx flex-column">
+                    <p class="p-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni, et quam fugit ea deserunt rem? Est ex aspernatur a, at, quaerat nihil soluta, voluptas perspiciatis nobis voluptate expedita. Expedita Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam a officiis tenetur quo veniam sunt sint repellat aliquam esse fugiat earum facere laudantium hic, ex nisi optio consequuntur quos! Minima.</p>
+                    <p class="p-4 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam, excepturi quibusdam ipsa neque id et tempora obcaecati aperiam perspiciatis repellendus ut, voluptatibus deleniti delectus distinctio possimus consequatur atque nihil! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem dolores velit illum a, nostrum eaque labore maxime expedita itaque assumenda ex? Illo in officiis facilis, exercitationem architecto consequatur animi quibusdam. </p>
+                </div>
+                <button class="m-auto d-block btn-download">
+                    <i class="fa-solid fa-download"></i>
                     Download
                 </button>
             </div>
         </section>
     
-        <seciton class="">
+        <seciton>
             <div class="container px-5 my-5 ">
-                <h2 class="text-center">ABOUT</h2>
-                <div class="text-center">&star;</div>
+                <h2 class="text-center">CONTACT ME</h2>
+                <div class="star-container d-flex align-items-center justify-content-center my-3">
+                    <div class="line-star bkg-1"></div>
+                    <i class="fa-solid fa-star"></i>
+                    <div class="line-star bkg-1"></div>
+                </div>
                 <div class="border-bottom py-2">
                     Name
                 </div>
@@ -91,9 +116,9 @@
                 </div>
                 <div class="border-bottom pt-2 pb-massage">
                     Message
-                </div>
+                </div> 
     
-                <button class="my-3" >
+                <button class="my-3 btn-form " >
                     send
                 </button>
             </div>
@@ -101,44 +126,54 @@
     </main>
 
     <footer>
-        <section class="bkg-3 py-5">
-            <div class="container">
+        <section class="bkg-3  pb-5">
+            <div class="container text-white">
                 <div class="row flex-column align-items-center">
                     <div class="col">
-                        <div class="text-center">
+                        <div class="text-center pt-5 ">
                             <h5>LOCATION</h5>
                             <div class=""> 225 Jhon David Drive Clark, MO 56483</div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="d-flex flex-column align-items-center justify-content-center ">
-                            <h5 class="">AROUND THE WORLD</h5>
+                        <div class="d-flex flex-column align-items-center justify-content-center pt-5 ">
+                            <h5 class="">AROUND THE WEB</h5>
                             <ul class="d-flex gap p-0 justify-content-center align-items-center ">
                                 <li>
-                                     <a href="">icon</a> 
+                                     <a class="" href="#">
+                                        <svg class="round-icon-border" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="34px" height="34px">    <path d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z"/></svg>
+                                     </a> 
                                 </li>
                                 <li>
-                                     <a href="">icon</a>
+                                     <a href="#">
+                                        <svg class="round-icon-border" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="34px" height="34px"><path d="M25 11H27V19H25z"/><path d="M22 14H30V16H22zM19.815 14.2l-.05-.2H11v3h6c-.477 2.837-3.028 5-6 5-3.314 0-6-2.686-6-6s2.686-6 6-6c1.5 0 2.868.554 3.92 1.465l2.151-2.106C15.471 7.894 13.34 7 11 7c-4.971 0-9 4.029-9 9s4.029 9 9 9 9-4.029 9-9C20 15.383 19.934 14.782 19.815 14.2z"/></svg>
+                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">icon</a>
+                                    <a href="#">
+                                        <svg class="round-icon-border" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 28 28" width="34px" height="34px">    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"/></svg>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a href="">icon</a>
+                                    <a href="#">
+                                        <svg class="round-icon-border" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 29 28" width="34px" height="34px"><path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"/></svg>  
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col text-center">
-                        <h5>ABOUT FREELANCER</h5>
-                        <p>Lorem ipsum dolor sit amet,  tempore corrupti commodi odio velit labore amet omnis <span> Start bootstrap </span></p>
+                    <div class="col ">
+                        <div class="text-center pt-5">
+                            <h5>ABOUT FREELANCER</h5>
+                            <p>Lorem ipsum dolor sit amet,  tempore corrupti commodi odio velit labore amet omnis <span> Start bootstrap </span></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="bkg-1 py-4">
-            <div class="text-center">Cpyrigth &copy;Your Website </div>
+            <div class="text-center text-white">Cpyrigth &copy;Your Website </div>
         </section>
        
     </footer>
